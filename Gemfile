@@ -60,3 +60,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# For Authorization
+gem 'pundit'
+
+# For generating API tokens for users
+gem 'simple_token_authentication'
